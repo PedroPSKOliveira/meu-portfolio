@@ -33,7 +33,7 @@ const Home = () => {
             </div>
                 <Finder/>
             <div className={"projeto2"}>
-                Projeto 2
+                <h1>Em breve</h1>
             </div>
         </div>
 
