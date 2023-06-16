@@ -1,6 +1,8 @@
 import nb from '../assets/finder-nb-cel.png'
 import classes from './finder.module.css'
 
+
+
 const finder = () => {
 
     return (
