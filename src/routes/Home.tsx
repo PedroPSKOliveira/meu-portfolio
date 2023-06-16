@@ -16,9 +16,9 @@ const Home = () => {
                             <div className="name-social">
                                 <h1 className="name">Pedro Almeida</h1>
                                 <div className="social-icons">
-                                    <a href="#"><FontAwesomeIcon icon={faGithub} size="xl" style={{color: "#000000"}} /></a>
-                                    <a href="#"><FontAwesomeIcon icon={faLinkedin} size="xl" style={{color: "#000000",}} /></a>
-                                    <a href="#"><FontAwesomeIcon icon={faWhatsapp} size="xl" style={{color: "#000000",}} /></a>
+                                    <a href="https://github.com/PedroPSKOliveira" target={"_blank"}><FontAwesomeIcon icon={faGithub} size="xl" style={{color: "#000000"}} /></a>
+                                    <a href="https://www.linkedin.com/in/pedro-almeida-oliveira-87b0a3246/" target={"_blank"}><FontAwesomeIcon icon={faLinkedin} size="xl" style={{color: "#000000",}} /></a>
+                                    <a href="https://api.whatsapp.com/send/?phone=5573981427266&text&type=phone_number&app_absent=0" target={"_blank"}><FontAwesomeIcon icon={faWhatsapp} size="xl" style={{color: "#000000",}} /></a>
                                 </div>
                             </div>
 
