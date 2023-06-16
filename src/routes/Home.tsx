@@ -1,13 +1,12 @@
 import eu from '../assets/eu.jpg'
-import github from '../assets/GitHub-Mark.png'
-import linkedin from '../assets/4138173.png'
-import wpp from '../assets/wpp.png'
+import Finder from "../components/finder.tsx";
+import { faGithub, faLinkedin, faWhatsapp} from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Home = () => {
     return (
         <>
         <body>
-
         <div className="page-wrap">
             <div className="container">
                 <div className="main">
@@ -17,9 +16,9 @@ const Home = () => {
                             <div className="name-social">
                                 <h1 className="name">Pedro Almeida</h1>
                                 <div className="social-icons">
-                                    <a href="#"><img className={"social-icon"} src={github} alt="Github"/></a>
-                                    <a href="#"><img className="social-icon" src={linkedin} alt="Linkedin"/></a>
-                                    <a href="#"><img className="social-icon" src={wpp} alt="WhatsApp"/></a>
+                                    <a href="#"><FontAwesomeIcon icon={faGithub} size="xl" style={{color: "#000000"}} /></a>
+                                    <a href="#"><FontAwesomeIcon icon={faLinkedin} size="xl" style={{color: "#000000",}} /></a>
+                                    <a href="#"><FontAwesomeIcon icon={faWhatsapp} size="xl" style={{color: "#000000",}} /></a>
                                 </div>
                             </div>
 
@@ -32,7 +31,9 @@ const Home = () => {
                     <h1>Veja mais sobre os meus projetos 👇</h1>
                 </div>
             </div>
-            <div className="projetos">
+                <Finder/>
+            <div className={"projeto2"}>
+                Projeto 2
             </div>
         </div>
 
