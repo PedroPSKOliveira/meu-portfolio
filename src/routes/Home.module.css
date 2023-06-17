@@ -74,7 +74,8 @@ nav {
 .profilePicture{
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 10%;
+    box-shadow: black 0px 0px 8px 0px;
     margin: 0 auto;
 }
 
