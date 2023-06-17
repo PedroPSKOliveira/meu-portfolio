@@ -1,4 +1,4 @@
-import nb from '../assets/finder-nb-cel.png'
+import nb from '../assets/finder1.png'
 import classes from './finder.module.css'
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";

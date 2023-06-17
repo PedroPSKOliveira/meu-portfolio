@@ -4,6 +4,7 @@ import { faGithub, faLinkedin, faWhatsapp} from '@fortawesome/free-brands-svg-ic
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faReact} from "@fortawesome/free-brands-svg-icons/faReact";
 import classes from './Home.module.css'
+import Calculator from "../components/calculator.tsx";
 
 const Home = () => {
     return (
@@ -25,7 +26,7 @@ const Home = () => {
                             </div>
 
                         <h2 className={classes.job}>
-                            <span>Desenvolvedor React</span>
+                            <span>React Developer</span>
                             <FontAwesomeIcon icon={faReact} spin size="xl" style={{color: "#00d5ff"}} />
                         </h2>
                             <p className={classes.description}>TENHO 19 ANOS SOU DESENVOLVEDOR FRONTEND COM 1 ANO DE EXPERIÊNCIA
@@ -37,9 +38,7 @@ const Home = () => {
                 </div>
             </div>
                 <Finder/>
-            <div className={classes.projeto2}>
-                <h1>Em breve</h1>
-            </div>
+                <Calculator/>
         </div>
 
         </body>

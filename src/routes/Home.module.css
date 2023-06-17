@@ -194,5 +194,6 @@ nav {
 @media (max-width: 406px) {
     .job span{
         width: 230px;
+        font-size: 28px;
     }
 }
