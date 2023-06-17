@@ -197,4 +197,14 @@ nav {
         width: 230px;
         font-size: 28px;
     }
+
+    .profilePicture {
+        width: 200px;
+        height: 200px;
+        border-radius: 10%;
+        box-shadow: black 0px 0px 8px 0px;
+        margin: auto auto 1rem;
+        display: block;
+    }
+
 }
