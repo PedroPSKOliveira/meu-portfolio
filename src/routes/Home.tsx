@@ -1,4 +1,4 @@
-import eu from '../assets/eu.jpg'
+import eu from '../assets/eu1.jpeg'
 import Finder from "../components/finder.tsx";
 import { faGithub, faLinkedin, faWhatsapp} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
