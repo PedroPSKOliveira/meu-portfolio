@@ -4,6 +4,7 @@ import App from './App.tsx'
 import './index.css'
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Home from "./routes/Home.tsx";
+import { inject } from '@vercel/analytics';
 
 const router = createBrowserRouter([
         {
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
         }
     ]
 );
+inject();
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
