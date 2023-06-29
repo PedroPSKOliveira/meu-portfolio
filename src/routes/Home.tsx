@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faReact} from "@fortawesome/free-brands-svg-icons/faReact";
 import classes from './Home.module.css'
 import Calculator from "../components/calculator.tsx";
+import PedroFilmes from "../components/pedroFilmes.tsx";
 
 const Home = () => {
     return (
@@ -37,8 +38,10 @@ const Home = () => {
                     <h1>Veja mais sobre os meus projetos 👇</h1>
                 </div>
             </div>
+
                 <Finder/>
                 <Calculator/>
+                <PedroFilmes/>
         </div>
 
         </body>

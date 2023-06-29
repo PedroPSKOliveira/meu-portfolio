@@ -1,4 +1,4 @@
-.calculator {
+.filmes {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,8 +6,8 @@
     margin-top: 4rem;
 }
 
-.calculator p{
-    margin: 0 6rem;
+.filmes p{
+    margin: 1rem 6rem;
     font-size: 22px;
     justify-content: center;
 }
@@ -23,15 +23,15 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-    .calculator {
+    .filmes {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: 10rem;
+        margin-top: 15rem;
     }
 
-    .calculator p{
+    .filmes p{
         margin: 2rem 4rem;
         font-size: 22px;
         justify-content: center;
@@ -45,7 +45,7 @@
 }
 
 @media (min-width: 500px) and (max-width: 767px) {
-    .calculator {
+    .filmes {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -53,7 +53,7 @@
         margin-top: 4rem;
     }
 
-    .calculator p{
+    .filmes p{
         margin: 0 4rem;
         font-size: 22px;
         justify-content: center;
@@ -62,12 +62,11 @@
     .imagem {
         width: 500px;
         height: 380px;
-        border-radius: 10%;
     }
 }
 
 @media (max-width: 499px) {
-    .calculator {
+    .filmes {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -75,7 +74,7 @@
         margin-top: 4rem;
     }
 
-    .calculator p{
+    .filmes p{
         margin: 0 4rem;
         font-size: 22px;
         justify-content: center;
@@ -84,7 +83,6 @@
     .imagem {
         width: 300px;
         height: 220px;
-        border-radius: 10%;
     }
 }
 
